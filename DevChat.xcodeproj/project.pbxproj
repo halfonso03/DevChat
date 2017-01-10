@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121F295B1E1599A00061AEE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 121F295A1E1599A00061AEE9 /* GoogleService-Info.plist */; };
 		128D84751E14BC0A00F1E0AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D84741E14BC0A00F1E0AA /* AppDelegate.swift */; };
-		128D84771E14BC0A00F1E0AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D84761E14BC0A00F1E0AA /* ViewController.swift */; };
 		128D847A1E14BC0A00F1E0AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128D84781E14BC0A00F1E0AA /* Main.storyboard */; };
 		128D847C1E14BC0A00F1E0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128D847B1E14BC0A00F1E0AA /* Assets.xcassets */; };
 		128D847F1E14BC0A00F1E0AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128D847D1E14BC0A00F1E0AA /* LaunchScreen.storyboard */; };
 		128D848A1E14BC0A00F1E0AA /* DevChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D84891E14BC0A00F1E0AA /* DevChatTests.swift */; };
 		128D84951E14BC0A00F1E0AA /* DevChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D84941E14BC0A00F1E0AA /* DevChatUITests.swift */; };
+		128D84A41E14C17200F1E0AA /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D84A31E14C17200F1E0AA /* PhotoCaptureDelegate.swift */; };
+		128D84A61E14C1AE00F1E0AA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D84A51E14C1AE00F1E0AA /* CameraViewController.swift */; };
+		128D84A91E14C20700F1E0AA /* PreviewView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D84A81E14C20700F1E0AA /* PreviewView3.swift */; };
+		128D84AB1E15546800F1E0AA /* CameraViewVontroller_BackupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D84AA1E15546800F1E0AA /* CameraViewVontroller_BackupViewController.swift */; };
+		128D84AD1E15766F00F1E0AA /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D84AC1E15766F00F1E0AA /* CameraVC.swift */; };
+		1295FCBD1E16E06600CACE91 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1295FCBC1E16E06600CACE91 /* UserCell.swift */; };
+		1295FCC01E16E2C900CACE91 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1295FCBF1E16E2C900CACE91 /* User.swift */; };
+		1295FCC21E18734300CACE91 /* CameraViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1295FCC11E18734300CACE91 /* CameraViewControllerDelegate.swift */; };
+		12D3D7B01E15DA730013C9E5 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3D7AF1E15DA730013C9E5 /* RoundTextField.swift */; };
+		12D3D7B21E15DFA40013C9E5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3D7B11E15DFA40013C9E5 /* RoundedButton.swift */; };
+		12D3D7B41E15E3410013C9E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3D7B31E15E3410013C9E5 /* LoginViewController.swift */; };
+		12D3D7B71E15E68A0013C9E5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3D7B61E15E68A0013C9E5 /* AuthService.swift */; };
+		12D3D7BB1E16DCBC0013C9E5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3D7BA1E16DCBC0013C9E5 /* DataService.swift */; };
+		12D3D7BD1E16DF620013C9E5 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3D7BC1E16DF620013C9E5 /* UsersViewController.swift */; };
+		B3B83EFED5B1E4AFD0D651B1 /* Pods_DevChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1A531188FA1AF02728794D /* Pods_DevChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		121F295A1E1599A00061AEE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		128D84711E14BC0A00F1E0AA /* DevChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		128D84741E14BC0A00F1E0AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		128D84761E14BC0A00F1E0AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		128D84791E14BC0A00F1E0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		128D847B1E14BC0A00F1E0AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		128D847E1E14BC0A00F1E0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,23 @@
 		128D84901E14BC0A00F1E0AA /* DevChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		128D84941E14BC0A00F1E0AA /* DevChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevChatUITests.swift; sourceTree = "<group>"; };
 		128D84961E14BC0A00F1E0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128D84A31E14C17200F1E0AA /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		128D84A51E14C1AE00F1E0AA /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		128D84A81E14C20700F1E0AA /* PreviewView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView3.swift; sourceTree = "<group>"; };
+		128D84AA1E15546800F1E0AA /* CameraViewVontroller_BackupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewVontroller_BackupViewController.swift; sourceTree = "<group>"; };
+		128D84AC1E15766F00F1E0AA /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		1295FCBC1E16E06600CACE91 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		1295FCBF1E16E2C900CACE91 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1295FCC11E18734300CACE91 /* CameraViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewControllerDelegate.swift; sourceTree = "<group>"; };
+		12D3D7AF1E15DA730013C9E5 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		12D3D7B11E15DFA40013C9E5 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		12D3D7B31E15E3410013C9E5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		12D3D7B61E15E68A0013C9E5 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		12D3D7BA1E16DCBC0013C9E5 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		12D3D7BC1E16DF620013C9E5 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		2CF85B8C9A837225866C611F /* Pods-DevChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-DevChat/Pods-DevChat.release.xcconfig"; sourceTree = "<group>"; };
+		5D1A531188FA1AF02728794D /* Pods_DevChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0FEE8EC4AA905150A7B91A /* Pods-DevChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevChat/Pods-DevChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B83EFED5B1E4AFD0D651B1 /* Pods_DevChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,8 @@
 				128D84881E14BC0A00F1E0AA /* DevChatTests */,
 				128D84931E14BC0A00F1E0AA /* DevChatUITests */,
 				128D84721E14BC0A00F1E0AA /* Products */,
+				ED475F8C65738964A2317CBC /* Pods */,
+				50DED0DDDB55BFFC9B50289F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +132,13 @@
 		128D84731E14BC0A00F1E0AA /* DevChat */ = {
 			isa = PBXGroup;
 			children = (
-				128D84741E14BC0A00F1E0AA /* AppDelegate.swift */,
-				128D84761E14BC0A00F1E0AA /* ViewController.swift */,
-				128D84781E14BC0A00F1E0AA /* Main.storyboard */,
-				128D847B1E14BC0A00F1E0AA /* Assets.xcassets */,
-				128D847D1E14BC0A00F1E0AA /* LaunchScreen.storyboard */,
-				128D84801E14BC0A00F1E0AA /* Info.plist */,
+				1295FCBE1E16E2C100CACE91 /* Model */,
+				12D3D7B51E15E67E0013C9E5 /* Services */,
+				12D3D7AE1E159A950013C9E5 /* Supporting Files */,
+				12EF04C91E157D1800862026 /* Backup */,
+				128D84A71E14C1F700F1E0AA /* View */,
+				128D84A21E14BC1000F1E0AA /* Controller */,
+				12D3D7B91E16C5BA0013C9E5 /* Delegates */,
 			);
 			path = DevChat;
 			sourceTree = "<group>";
@@ -125,6 +161,93 @@
 			path = DevChatUITests;
 			sourceTree = "<group>";
 		};
+		128D84A21E14BC1000F1E0AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				128D84A51E14C1AE00F1E0AA /* CameraViewController.swift */,
+				128D84AC1E15766F00F1E0AA /* CameraVC.swift */,
+				12D3D7B31E15E3410013C9E5 /* LoginViewController.swift */,
+				12D3D7BC1E16DF620013C9E5 /* UsersViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		128D84A71E14C1F700F1E0AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				128D84781E14BC0A00F1E0AA /* Main.storyboard */,
+				128D847D1E14BC0A00F1E0AA /* LaunchScreen.storyboard */,
+				128D84A81E14C20700F1E0AA /* PreviewView3.swift */,
+				12D3D7AF1E15DA730013C9E5 /* RoundTextField.swift */,
+				12D3D7B11E15DFA40013C9E5 /* RoundedButton.swift */,
+				1295FCBC1E16E06600CACE91 /* UserCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1295FCBE1E16E2C100CACE91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1295FCBF1E16E2C900CACE91 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		12D3D7AE1E159A950013C9E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				121F295A1E1599A00061AEE9 /* GoogleService-Info.plist */,
+				128D84801E14BC0A00F1E0AA /* Info.plist */,
+				128D847B1E14BC0A00F1E0AA /* Assets.xcassets */,
+				128D84741E14BC0A00F1E0AA /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12D3D7B51E15E67E0013C9E5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12D3D7B61E15E68A0013C9E5 /* AuthService.swift */,
+				12D3D7BA1E16DCBC0013C9E5 /* DataService.swift */,
+			);
+			name = Services;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		12D3D7B91E16C5BA0013C9E5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				128D84A31E14C17200F1E0AA /* PhotoCaptureDelegate.swift */,
+				1295FCC11E18734300CACE91 /* CameraViewControllerDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		12EF04C91E157D1800862026 /* Backup */ = {
+			isa = PBXGroup;
+			children = (
+				128D84AA1E15546800F1E0AA /* CameraViewVontroller_BackupViewController.swift */,
+			);
+			name = Backup;
+			sourceTree = "<group>";
+		};
+		50DED0DDDB55BFFC9B50289F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D1A531188FA1AF02728794D /* Pods_DevChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED475F8C65738964A2317CBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F0FEE8EC4AA905150A7B91A /* Pods-DevChat.debug.xcconfig */,
+				2CF85B8C9A837225866C611F /* Pods-DevChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 128D84991E14BC0A00F1E0AA /* Build configuration list for PBXNativeTarget "DevChat" */;
 			buildPhases = (
+				3CE12D6539F7ED5C9F188208 /* [CP] Check Pods Manifest.lock */,
 				128D846D1E14BC0A00F1E0AA /* Sources */,
 				128D846E1E14BC0A00F1E0AA /* Frameworks */,
 				128D846F1E14BC0A00F1E0AA /* Resources */,
+				E82F82A177FEC39A61A8DD5A /* [CP] Embed Pods Frameworks */,
+				9E20AF2A51E46D8D8BE5D5B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +363,7 @@
 			files = (
 				128D847F1E14BC0A00F1E0AA /* LaunchScreen.storyboard in Resources */,
 				128D847C1E14BC0A00F1E0AA /* Assets.xcassets in Resources */,
+				121F295B1E1599A00061AEE9 /* GoogleService-Info.plist in Resources */,
 				128D847A1E14BC0A00F1E0AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,12 +384,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CE12D6539F7ED5C9F188208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E20AF2A51E46D8D8BE5D5B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DevChat/Pods-DevChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E82F82A177FEC39A61A8DD5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DevChat/Pods-DevChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		128D846D1E14BC0A00F1E0AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				128D84771E14BC0A00F1E0AA /* ViewController.swift in Sources */,
+				12D3D7B41E15E3410013C9E5 /* LoginViewController.swift in Sources */,
+				1295FCBD1E16E06600CACE91 /* UserCell.swift in Sources */,
+				12D3D7BD1E16DF620013C9E5 /* UsersViewController.swift in Sources */,
+				128D84A91E14C20700F1E0AA /* PreviewView3.swift in Sources */,
+				128D84AD1E15766F00F1E0AA /* CameraVC.swift in Sources */,
+				128D84A41E14C17200F1E0AA /* PhotoCaptureDelegate.swift in Sources */,
+				1295FCC01E16E2C900CACE91 /* User.swift in Sources */,
+				12D3D7B21E15DFA40013C9E5 /* RoundedButton.swift in Sources */,
+				1295FCC21E18734300CACE91 /* CameraViewControllerDelegate.swift in Sources */,
+				12D3D7BB1E16DCBC0013C9E5 /* DataService.swift in Sources */,
+				12D3D7B01E15DA730013C9E5 /* RoundTextField.swift in Sources */,
+				128D84A61E14C1AE00F1E0AA /* CameraViewController.swift in Sources */,
+				12D3D7B71E15E68A0013C9E5 /* AuthService.swift in Sources */,
+				128D84AB1E15546800F1E0AA /* CameraViewVontroller_BackupViewController.swift in Sources */,
 				128D84751E14BC0A00F1E0AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +601,7 @@
 		};
 		128D849A1E14BC0A00F1E0AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0FEE8EC4AA905150A7B91A /* Pods-DevChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3X58GVHHHH;
@@ -426,6 +615,7 @@
 		};
 		128D849B1E14BC0A00F1E0AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF85B8C9A837225866C611F /* Pods-DevChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3X58GVHHHH;
@@ -514,6 +704,7 @@
 				128D849B1E14BC0A00F1E0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		128D849C1E14BC0A00F1E0AA /* Build configuration list for PBXNativeTarget "DevChatTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +713,7 @@
 				128D849E1E14BC0A00F1E0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		128D849F1E14BC0A00F1E0AA /* Build configuration list for PBXNativeTarget "DevChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +722,7 @@
 				128D84A11E14BC0A00F1E0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
